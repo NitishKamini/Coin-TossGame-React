@@ -1,0 +1,52 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 15px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+}
+
+.card-heading {
+  color: #a35200;
+  font-weight: 500;
+}
+.card-text {
+  color: #334155;
+  font-weight: 500;
+}
+.toss-image {
+  width: 170px;
+}
+
+.card-button {
+  background-color: #f9d423;
+  height: 30px;
+  border-width: 0;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: #a35200;
+  font-weight: 500;
+}
+
+.counts-container {
+  display: flex;
+}
+
+.card-count {
+  color: #334155;
+  font-weight: 500;
+  margin-right: 20px;
+}
